@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/Public/Documents/ATB5x_Selenium">
-        <classes><class name="com.thetestingacademy.TC_02">
-            <methods>
-                <include name="vwologin"/>
-            </methods>
-        </class
-        ></classes>
+        <classes>
+            <class name="com.thetestingacademy.Selenium.Selenium_10">
+
+            </class>
+
+        </classes>
     </test>
 </suite>
