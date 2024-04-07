@@ -47,6 +47,13 @@ public class Selenium_29 {
         List<WebElement> svgElements = driver.findElements(By.xpath("//*[local-name()='svg']"));
         svgElements.get(0).click();
 
+        List<WebElement> mac_ele = driver.findElements(By.xpath("//a[@class='s1Q9rs']"));
+
+        for (WebElement mac: mac_ele) {
+            System.out.println(mac.getAttribute("title"));
+
+        }
+
 
 
 
